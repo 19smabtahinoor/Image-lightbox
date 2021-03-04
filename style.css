@@ -36,7 +36,7 @@ img {
   height: 698px;
   background: rgb(246, 245, 245);
   position: fixed;
-  top: 50%;
+  top: 12%;
   left: -50%;
   transform: translate(-50%, -50%);
   border-radius: 10px;
@@ -58,6 +58,7 @@ img {
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
+  transform: scale(0);
 }
 
 .closeText {
@@ -127,6 +128,7 @@ span {
 }
 
 .activePopUp {
-  left: 50%;
+  left: 20%;
   opacity: 1;
+  transform: scale(1.2);
 }
