@@ -7,6 +7,7 @@ body {
   width: 100%;
   background: rgba(255, 255, 255, 0.986);
   position: relative;
+  overflow:hidden;
 }
 
 .container {
@@ -104,7 +105,7 @@ button.downloadBtn {
 
 .darkOnBack {
   width: 100%;
-  height: 110vh;
+  height: 150vh;
   background: rgba(0, 0, 0, 0.616);
   position: absolute;
   top: -50%;
