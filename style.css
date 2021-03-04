@@ -35,8 +35,8 @@ img {
   height: 698px;
   background: rgb(246, 245, 245);
   position: fixed;
-  top: -50%;
-  left: 50%;
+  top: 50%;
+  left: -50%;
   transform: translate(-50%, -50%);
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -126,6 +126,6 @@ span {
 }
 
 .activePopUp {
-  top: 50%;
+  left: 50%;
   opacity: 1;
 }
